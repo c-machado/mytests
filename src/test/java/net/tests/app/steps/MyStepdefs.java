@@ -37,4 +37,6 @@ public class MyStepdefs {
     public void iShouldSeeResultsForSearchedItem() {
         browser.findElement(By.cssSelector(".total-records")).isDisplayed();
     }
+
+
 }
