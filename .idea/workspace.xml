@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8010037d-4922-4c44-8d75-063c57c579e2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/tests/app/examples/RadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/tests/app/examples/RadioButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/tests/app/steps/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/tests/app/steps/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/net/tests/app/examples/RadioButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/net/tests/app/examples/RadioButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/net/tests/app/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/net/tests/app/runner/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/net/tests/app/steps/MyStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/net/tests/app/steps/MyStepdefs.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +48,8 @@
       <file leaf-file-name="RadioButton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/tests/app/examples/RadioButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="210">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +60,8 @@
       <file leaf-file-name="Alerts.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/tests/app/examples/Alerts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="9" column="47" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="105">
+              <caret line="9" column="47" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,11 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyActions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/tests/app/examples/MyActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultipleWindows.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/tests/app/examples/MultipleWindows.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/test/java/net/tests/app/examples/Alerts.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/tests/app/examples/Actions.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/tests/app/examples/MyActions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/tests/app/examples/MultipleWindows.java" />
       </list>
     </option>
   </component>
@@ -138,7 +145,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,8 +238,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,9 +266,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyActions">
+  <component name="RunManager" selected="Application.MultipleWindows">
     <configuration name="Alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.tests.app.examples.Alerts" />
+      <module name="mytests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.tests.app.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MultipleWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.tests.app.examples.MultipleWindows" />
       <module name="mytests" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -295,16 +313,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Feature: search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
-      <module name="mytests" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mytests" />
@@ -368,19 +376,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: search" />
       <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="Application.RadioButton" />
       <item itemvalue="Application.Alerts" />
       <item itemvalue="Application.MyActions" />
+      <item itemvalue="Application.MultipleWindows" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleWindows" />
         <item itemvalue="Application.MyActions" />
         <item itemvalue="Application.Alerts" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Application.RadioButton" />
-        <item itemvalue="Cucumber java.Feature: search" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +454,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -464,14 +472,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -481,7 +489,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
@@ -493,13 +501,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/features/search.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -870,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/tests/app/examples/RadioButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="210">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -880,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/tests/app/examples/Alerts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="105">
+          <caret line="9" column="47" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -890,8 +891,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/tests/app/examples/MyActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/tests/app/examples/MultipleWindows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
